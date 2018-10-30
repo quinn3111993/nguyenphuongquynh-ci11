@@ -15,6 +15,7 @@ public class GameCanvas extends JPanel {
 
     }
 
+
     @Override
     protected void paintComponent(Graphics g) {
         this.background.render(g);
