@@ -1,14 +1,18 @@
 package base;
 
 import base.game.Settings;
+import base.renderer.SingleImageRenderer;
 import tklibs.SpriteUtils;
+
+import java.awt.image.BufferedImage;
 
 public class Background extends GameObject {
     public Background() {
         super();
-        this.image = SpriteUtils.loadImage("assets/images/background/0.png");
+        BufferedImage image = SpriteUtils.loadImage("assets/images/background/0.png");
+        this.renderer = new SingleImageRenderer(image);
         this.position.set(0
-                , Settings.SCREEN_HEIGHT - this.image.getHeight());
+                , Settings.SCREEN_HEIGHT - image.getHeight());
     }
 
     @Override

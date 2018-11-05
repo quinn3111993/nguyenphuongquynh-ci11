@@ -3,13 +3,35 @@ package base.player;
 import base.game.GameCanvas;
 import base.GameObject;
 import base.KeyEventPress;
+import base.renderer.AnimationRenderer;
+import base.renderer.SingleImageRenderer;
 import tklibs.SpriteUtils;
 
+import java.awt.image.BufferedImage;
+import java.util.ArrayList;
+
 public class Player extends GameObject {
+
     public Player() {
         super();
-        this.image = SpriteUtils.loadImage("assets/images/players/straight/0.png");
+//        BufferedImage image = SpriteUtils.loadImage("assets/images/players/straight/0.png");
+//        this.renderer = new SingleImageRenderer(image);
+        this.createRenderer();
         this.position.set(200, 300);
+    }
+
+    private void createRenderer() {
+        //ArrayList<BufferedImage> images
+        ArrayList<BufferedImage> images = new ArrayList<BufferedImage>();
+        images.add(SpriteUtils.loadImage("assets/images/players/straight/0.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/straight/1.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/straight/2.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/straight/3.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/straight/4.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/straight/5.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/straight/6.png"));
+        //AnimationRenderer(images)
+        this.renderer = new AnimationRenderer(images);
     }
 
     @Override
@@ -29,18 +51,21 @@ public class Player extends GameObject {
         if(KeyEventPress.isFirePress) {
             this.fire();
         }
+        this.count++;
     }
 
-    int count = 0;
+    int count = 20;
+
     private void fire() {
         if(count > 20) {
             PlayerBullet bullet = new PlayerBullet();
             bullet.position.set(this.position.x, this.position.y);
 
             GameCanvas.bullets.add(bullet);
-            count = 0;
-        } else {
-            count++;
+            this.count = 0;
         }
+//        else {
+//            this.count++;
+//        }
     }
 }
