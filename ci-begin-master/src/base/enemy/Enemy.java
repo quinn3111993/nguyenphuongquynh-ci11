@@ -1,8 +1,8 @@
 package base.enemy;
 
+import base.FrameCounter;
 import base.GameObject;
 import base.game.GameCanvas;
-import base.game.Settings;
 import base.renderer.AnimationRenderer;
 import base.renderer.SingleImageRenderer;
 import tklibs.SpriteUtils;
@@ -11,18 +11,22 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
 public class Enemy extends GameObject {
+    FrameCounter fireCounter;
+
     public Enemy() {
         super();
-        this.createRenderer();
         this.position.set(50,50);
+        this.createRenderer();
+        this.fireCounter = new FrameCounter(20);
     }
 
     private void createRenderer() {
-        ArrayList<BufferedImage> images = new ArrayList<>();
-        images.add(SpriteUtils.loadImage("assets/images/enemies/level0/blue/0.png"));
-        images.add(SpriteUtils.loadImage("assets/images/enemies/level0/blue/1.png"));
-        images.add(SpriteUtils.loadImage("assets/images/enemies/level0/blue/2.png"));
-        images.add(SpriteUtils.loadImage("assets/images/enemies/level0/blue/3.png"));
+        ArrayList<BufferedImage> images = SpriteUtils.loadImages(
+                "assets/images/enemies/level0/pink/0.png",
+                "assets/images/enemies/level0/pink/1.png",
+                "assets/images/enemies/level0/pink/2.png",
+                "assets/images/enemies/level0/pink/3.png"
+        );
         this.renderer = new AnimationRenderer(images);
     }
 
@@ -32,20 +36,16 @@ public class Enemy extends GameObject {
         if(this.position.y < 300) {
             this.position.addThis(0,3);
         }
-        fire();
+        this.fire();
     }
 
-    int count = 0;
+    //TODO: replace frameCounter
     private void fire() {
-        if(count >= 20) {
-
-            EnemyBullet enemyBullet = new EnemyBullet();
-            enemyBullet.position.set(this.position.x, this.position.y);
-
-            GameCanvas.enemyBullets.add(enemyBullet);
-            count = 0;
-        } else {
-            count++;
+        if (this.fireCounter.run()) {
+            EnemyBullet enemyBullet = GameObject.recycle(EnemyBullet.class);
+            enemyBullet.position.set(this.position);
+            this.fireCounter.reset();
         }
     }
+
 }

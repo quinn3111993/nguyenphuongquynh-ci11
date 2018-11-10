@@ -14,20 +14,12 @@ import java.util.ArrayList;
 public class GameCanvas extends JPanel {
     public GameObject background;
     public GameObject player;
-    public static ArrayList<PlayerBullet> bullets = new ArrayList<>();
-    public static ArrayList<Enemy> enemies = new ArrayList<>();
-    public static ArrayList<EnemyBullet> enemyBullets = new ArrayList<>();
-
 
     public GameCanvas() {
         //super
-        this.background = new Background();
-        this.player = new Player();
-        GameCanvas.bullets = new ArrayList<>();
-        GameCanvas.enemies = new ArrayList<>();
-        GameCanvas.enemyBullets = new ArrayList<>();
-        Enemy enemy = new Enemy();
-        GameCanvas.enemies.add(enemy);
+        this.background = GameObject.recycle(Background.class); //new Background()
+        this.player = GameObject.recycle(Player.class); //new Player()
+        Enemy enemy = GameObject.recycle(Enemy.class); // new Enemy()
     }
 
     public void gameLoop() {
@@ -44,31 +36,24 @@ public class GameCanvas extends JPanel {
     }
 
     public void runAll() {
-        this.background.run();
-        this.player.run();
-        for(PlayerBullet bullet : bullets) {
-            bullet.run();
+//        for(GameObject gameObject : GameObject.gameObjects) {
+        for(int i = 0; i < GameObject.gameObjects.size(); i++) {
+            GameObject gameObject = GameObject.gameObjects.get(i);
+            if(gameObject.isActive) {
+                gameObject.run();
+            }
         }
-        for(Enemy enemy : enemies) {
-            enemy.run();
-        }
-        for(EnemyBullet enemyBullet : enemyBullets) {
-            enemyBullet.run();
-        }
+        System.out.println(GameObject.gameObjects.size());
     }
 
     @Override
     protected void paintComponent(Graphics g) {
-        this.background.render(g);
-        this.player.render(g);
-        for(PlayerBullet bullet : bullets) {
-            bullet.render(g);
-        }
-        for(Enemy enemy : enemies) {
-            enemy.render(g);
-        }
-        for(EnemyBullet enemyBullet : enemyBullets) {
-            enemyBullet.render(g);
+//        for(GameObject gameObject : GameObject.gameObjects) {
+        for(int i = 0; i < GameObject.gameObjects.size(); i++) {
+            GameObject gameObject = GameObject.gameObjects.get(i);
+            if(gameObject.isActive) {
+                gameObject.render(g);
+            }
         }
     }
 
