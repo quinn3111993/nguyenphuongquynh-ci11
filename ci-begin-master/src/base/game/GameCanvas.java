@@ -14,12 +14,13 @@ import java.util.ArrayList;
 public class GameCanvas extends JPanel {
     public GameObject background;
     public GameObject player;
+    public Enemy enemy;
 
     public GameCanvas() {
         //super
         this.background = GameObject.recycle(Background.class); //new Background()
         this.player = GameObject.recycle(Player.class); //new Player()
-        Enemy enemy = GameObject.recycle(Enemy.class); // new Enemy()
+        this.enemy = GameObject.recycle(Enemy.class); // new Enemy()
     }
 
     public void gameLoop() {
@@ -28,6 +29,7 @@ public class GameCanvas extends JPanel {
         while(true) {
             long currentTime = System.currentTimeMillis();
             if(currentTime - lastRun > delay) {
+//                this.interaction();
                 this.runAll();
                 this.renderAll();
                 lastRun = currentTime;

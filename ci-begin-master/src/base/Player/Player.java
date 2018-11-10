@@ -13,6 +13,7 @@ import java.util.ArrayList;
 
 public class Player extends GameObject {
     FrameCounter fireCounter;
+
     public Player() {
         super();
         this.createRenderer();
@@ -54,35 +55,19 @@ public class Player extends GameObject {
         }
     }
 
+
     private void fire() {
         if(this.fireCounter.run()) {
-            PlayerBullet bullet = GameObject.recycle(PlayerBullet.class);
-            bullet.position.set(this.position);
-            this.fireCounter.reset();
+            int numberBullet = 7;
+            int numberBulletLeft = (int)Math.floor(numberBullet/2);
+            float maxAngle = 90;
+            for(int i = -numberBulletLeft; i <= numberBulletLeft; i++) {
+                PlayerBullet bullet = GameObject.recycle(PlayerBullet.class);
+                bullet.position.set(this.position);
+                bullet.setAngle((float)i / numberBulletLeft * maxAngle);
+                bullet.setSpeed(5);
+            }
 
-            PlayerBulletRight bullet2 = GameObject.recycle(PlayerBulletRight.class);
-            bullet2.position.set(this.position);
-            bullet2.position.addThis(20,0);
-
-            PlayerBulletRight bullet3 = GameObject.recycle(PlayerBulletRight.class);
-            bullet3.position.set(this.position);
-            bullet3.position.addThis(60,0);
-
-            PlayerBulletRight bullet4 = GameObject.recycle(PlayerBulletRight.class);
-            bullet4.position.set(this.position);
-            bullet4.position.addThis(120,0);
-
-            PlayerBulletLeft bullet5 = GameObject.recycle(PlayerBulletLeft.class);
-            bullet5.position.set(this.position);
-            bullet5.position.addThis(-20,0);
-
-            PlayerBulletLeft bullet6 = GameObject.recycle(PlayerBulletLeft.class);
-            bullet6.position.set(this.position);
-            bullet6.position.addThis(-60,0);
-
-            PlayerBulletLeft bullet7 = GameObject.recycle(PlayerBulletLeft.class);
-            bullet7.position.set(this.position);
-            bullet7.position.addThis(-120,0);
 
             this.fireCounter.reset();
         }

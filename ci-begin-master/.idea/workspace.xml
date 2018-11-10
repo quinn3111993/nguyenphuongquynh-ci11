@@ -2,166 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74894c08-4328-4c80-a319-1d35b1fc91b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/background/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/background/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/bullets/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/bullets/cyan.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/cyan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/bullets/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/green.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/bullets/pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/pink.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/bullets/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/bullets/white.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/bullets/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/yellow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion-big/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion-big/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion-big/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion-big/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion-big/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion-big/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion-big/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion-big/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/explosion/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/black/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/black/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/black/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/black/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/black/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/black/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/black/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/black/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/blue/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/blue/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/blue/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/blue/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/blue/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/blue/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/blue/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/blue/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/pink/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/pink/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/pink/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/pink/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/pink/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/pink/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/enemies/level0/pink/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/pink/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/enemy-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/enemy-banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/numbers/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/numbers/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/numbers/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/numbers/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/numbers/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/numbers/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/numbers/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/numbers/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/numbers/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/numbers/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/picture.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/picture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/player.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/player.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/power.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/power.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hud/ring.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hud/ring.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/items/power-up-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/items/power-up-blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/items/power-up-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/items/power-up-red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/menus/quit-color.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/menus/quit-color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/menus/quit-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/menus/quit-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/menus/start-color.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/menus/start-color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/menus/start-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/menus/start-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/player-bullets/a/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/player-bullets/a/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/player-bullets/a/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/player-bullets/a/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/player-bullets/a/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/player-bullets/a/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/player-bullets/a/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/player-bullets/a/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/explosions/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/explosions/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/explosions/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/explosions/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/explosions/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/explosions/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/explosions/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/explosions/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/explosions/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/explosions/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/explosions/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/explosions/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/explosions/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/explosions/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/explosions/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/explosions/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/left/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/left/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/left/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/left/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/left/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/left/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/left/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/left/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/left/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/left/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/left/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/left/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/right/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/right/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/right/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/right/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/right/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/right/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/right/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/right/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/right/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/right/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/right/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/right/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/straight/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/straight/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/straight/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/straight/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/straight/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/straight/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/straight/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/straight/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/straight/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/straight/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/straight/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/straight/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/players/straight/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/players/straight/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/scenes/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/scenes/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/scenes/game-over-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/scenes/game-over-background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/scenes/menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/scenes/menu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/scenes/thanks-for-playing.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/scenes/thanks-for-playing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/scenes/victory-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/scenes/victory-background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/scenes/victory.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/scenes/victory.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sphere-bullets/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sphere-bullets/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sphere-bullets/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sphere-bullets/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sphere-bullets/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sphere-bullets/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sphere-bullets/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sphere-bullets/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sphere/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sphere/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sphere/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sphere/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sphere/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sphere/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sphere/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sphere/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/1.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/bgm/ending.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/bgm/ending.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/bgm/game-over.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/bgm/game-over.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/bgm/title.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/bgm/title.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/sfx/enemy-explosion-big.wav" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/sfx/enemy-explosion-big.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/sfx/enemy-explosion.wav" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/sfx/enemy-explosion.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/sfx/item-collect.wav" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/sfx/item-collect.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/sfx/ok.wav" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/sfx/ok.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/sfx/option.wav" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/sfx/option.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/sfx/player-dead.wav" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/sfx/player-dead.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/sfx/player-shoot.wav" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/sfx/player-shoot.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/sfx/powerup.wav" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/sfx/powerup.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci-begin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ci-begin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/Background.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/GameObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/KeyEventPress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/Vector2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/enemy/Enemy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/enemy/EnemyBullet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/game/GameCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/game/GameWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/game/GameWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/game/Settings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/player/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/player/PlayerBullet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/renderer/AnimationRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/renderer/Renderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/base/renderer/SingleImageRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/tklibs/AudioUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/tklibs/Mathx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ci-begin/tklibs/SpriteUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/Background.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Background.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/Player/PlayerBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Player/PlayerBullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Vector2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/enemy/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/enemy/EnemyBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/enemy/EnemyBullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/base/game/GameCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/game/GameCanvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/renderer/AnimationRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/renderer/AnimationRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/renderer/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/renderer/Renderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/renderer/SingleImageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/renderer/SingleImageRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tklibs/AudioUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tklibs/AudioUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tklibs/Mathx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tklibs/Mathx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tklibs/SpriteUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tklibs/SpriteUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/player/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -217,7 +59,8 @@
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -232,12 +75,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="546" />
+          <entry key="java" value="1762" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="546" />
+          <entry key="JAVA" value="1762" />
         </counts>
       </usages-collector>
     </session>
@@ -247,17 +90,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/GameObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/base/game/GameCanvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="420">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="e#2209#2210#0" expanded="true" />
+                <element signature="e#2239#2240#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/player/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1016">
-              <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+            <state relative-caret-position="138">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -277,26 +127,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/player/PlayerBullet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/base/player/PlayerBulletRight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/player/PlayerBulletLeft.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="246">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding>
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -304,7 +142,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/enemy/EnemyBullet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="225">
               <caret line="20" column="117" selection-start-line="20" selection-start-column="117" selection-end-line="20" selection-end-column="117" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -325,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/Vector2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -334,7 +172,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/enemy/Enemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
+            <state relative-caret-position="645">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
@@ -372,21 +210,22 @@
         <option value="$PROJECT_DIR$/src/base/renderer/AnimationRenderer.java" />
         <option value="$PROJECT_DIR$/src/tklibs/SpriteUtils.java" />
         <option value="$PROJECT_DIR$/src/Program.java" />
-        <option value="$PROJECT_DIR$/src/base/game/GameCanvas.java" />
         <option value="$PROJECT_DIR$/src/base/enemy/Enemy.java" />
         <option value="$PROJECT_DIR$/src/base/GameObject.java" />
         <option value="$PROJECT_DIR$/src/base/enemy/EnemyBullet.java" />
-        <option value="$PROJECT_DIR$/src/base/player/PlayerBullet.java" />
         <option value="$PROJECT_DIR$/src/base/player/PlayerBulletLeft.java" />
-        <option value="$PROJECT_DIR$/src/base/player/Player.java" />
         <option value="$PROJECT_DIR$/src/base/player/PlayerBulletRight.java" />
+        <option value="$PROJECT_DIR$/src/base/player/PlayerBullet.java" />
+        <option value="$PROJECT_DIR$/src/base/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/base/game/GameCanvas.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1569" />
+    <option name="y" value="-147" />
     <option name="width" value="1440" />
-    <option name="height" value="800" />
+    <option name="height" value="1021" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -394,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -508,12 +348,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541827629635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541848735726" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -605,10 +444,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="-1569" y="-147" width="1440" height="1021" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17525035" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17739628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -618,7 +457,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32844576" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24724062" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -626,7 +465,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32844576" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32781458" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -727,30 +566,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tklibs/SpriteUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/Vector2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/enemy/EnemyBullet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="225">
           <caret line="20" column="117" selection-start-line="20" selection-start-column="117" selection-end-line="20" selection-end-column="117" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -758,10 +576,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/enemy/Enemy.java">
+    <entry file="file://$PROJECT_DIR$/src/tklibs/SpriteUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="105">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/player/PlayerBulletRight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -772,10 +597,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/enemy/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/Vector2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/player/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1016">
-          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+        <state relative-caret-position="138">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -784,22 +633,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/player/PlayerBullet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="246">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/game/GameCanvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/player/PlayerBulletRight.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#2209#2210#0" expanded="true" />
+            <element signature="e#2239#2240#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
