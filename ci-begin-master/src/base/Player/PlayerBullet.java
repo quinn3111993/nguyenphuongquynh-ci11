@@ -15,35 +15,21 @@ public class PlayerBullet extends GameObject {
 
     public PlayerBullet() {
         super();
-        this.createRenderer();
+        this.velocity.set(0,-5);
     }
 
-    public void setAngle(float angle) {
-        this.angle = angle;
-    }
-
-    public void setSpeed(float speed) {
-        this.speed = speed;
-    }
-
-    private void createRenderer() {
-        ArrayList<BufferedImage> images = SpriteUtils.loadImages(
-            "assets/images/player-bullets/a/0.png",
-                "assets/images/player-bullets/a/1.png",
-                "assets/images/player-bullets/a/2.png",
-                "assets/images/player-bullets/a/3.png"
-        );
-        this.renderer = new AnimationRenderer(images);
-    }
 
     @Override
     public void run() {
-        float x = this.speed * (float)Math.sin(this.angle / 180 * Math.PI);
-        float y = this.speed * -(float)Math.cos(this.angle / 180 * Math.PI);
-        this.position.addThis(x,y);
+//        float x = this.speed * (float)Math.sin(this.angle / 180 * Math.PI);
+//        float y = this.speed * -(float)Math.cos(this.angle / 180 * Math.PI);
+//        this.position.addThis(x,y);
+        super.run();
+        this.destroyIfNeeded();
+    }
 
-//        this.position.addThis(0, -5);
-        if(this.position.y < -20 || this.position.x < 0 || this.position.x > Settings.SCREEN_WIDTH) {
+    private void destroyIfNeeded() {
+        if(this.position.y < -20 || this.position.y >= Settings.SCREEN_HEIGHT || this.position.x <0 || this.position.x > Settings.BACKGROUND_WIDTH) {
             this.destroy();
         }
     }

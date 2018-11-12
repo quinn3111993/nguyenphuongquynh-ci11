@@ -16,6 +16,7 @@ public class Enemy extends GameObject {
     public Enemy() {
         super();
         this.position.set(50,50);
+        this.velocity.set(0,3);
         this.createRenderer();
         this.fireCounter = new FrameCounter(20);
     }
@@ -32,9 +33,9 @@ public class Enemy extends GameObject {
 
     @Override
     public void run() {
-//        super.run();
-        if(this.position.y < 300) {
-            this.position.addThis(0,3);
+        super.run();
+        if(this.position.y >= 300) {
+            this.velocity.set(0,0);
         }
         this.fire();
     }
